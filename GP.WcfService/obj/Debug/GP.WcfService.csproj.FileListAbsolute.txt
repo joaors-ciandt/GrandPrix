@@ -1,0 +1,4 @@
+D:\Projetos\ProjetoBase\GPService\bin\GP.WcfService.dll
+D:\Projetos\ProjetoBase\GPService\bin\GP.WcfService.pdb
+D:\Projetos\ProjetoBase\GPService\obj\Debug\GP.WcfService.dll
+D:\Projetos\ProjetoBase\GPService\obj\Debug\GP.WcfService.pdb
