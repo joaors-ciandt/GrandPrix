@@ -16,6 +16,10 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -232,6 +236,8 @@
     <Content Include="Views\Home\Welcome.cshtml" />
     <Content Include="Views\Membership\Login.cshtml" />
     <Content Include="Views\Membership\ListFeatures.cshtml" />
+    <Content Include="Views\Membership\EditFeature.cshtml" />
+    <Content Include="Views\Membership\CreateFeature.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomFramework\CustomFramework.csproj">

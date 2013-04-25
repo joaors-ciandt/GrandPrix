@@ -2,6 +2,8 @@
 
 @{
     ViewBag.Title = "Funcionalidades";
+    ViewBag.Header = "Funcionalidades";
+    ViewBag.Description = "Pesquisa de funcionalidades disponíveis no sistema.";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -31,5 +33,5 @@
     </tbody>
 </table>
 <p>
-<a class="btn btn-info" href="#">Nova Funcionalidade</a>
+    @Html.ActionLink("Nova Funcionalidade", "CreateFeature","Membership", null, new {@class = "btn btn-info"})
 </p>

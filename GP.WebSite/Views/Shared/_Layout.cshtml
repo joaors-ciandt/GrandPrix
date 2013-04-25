@@ -84,10 +84,9 @@
         <div class="container">
             <div class="masthead-pad">
                 <div class="masthead-text">
-                    <h2>
-                        Bem Vindo</h2>
+                    <h2>@ViewBag.Header</h2>
                     <p>
-                        Este é o layout principal do sistema.</p>
+                        @ViewBag.Description</p>
                 </div>
             </div>
         </div>
@@ -95,9 +94,12 @@
     <div class="container">
     <br />
     @RenderBody()
+    
     </div>
-    <div id="footer">
-    </div>   
+    
+ @*   <div id="footer">
+       
+    </div>  *@ 
    
 </body>
 </html>
