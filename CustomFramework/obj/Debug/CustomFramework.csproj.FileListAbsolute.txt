@@ -9,3 +9,15 @@ D:\Projetos\ProjetoBase\JR.Framework\obj\Debug\CustomFramework.csproj.GenerateRe
 D:\Projetos\ProjetoBase\JR.Framework\obj\Debug\en-US\CustomFramework.resources.dll
 D:\Projetos\ProjetoBase\JR.Framework\obj\Debug\CustomFramework.dll
 D:\Projetos\ProjetoBase\JR.Framework\obj\Debug\CustomFramework.pdb
+C:\Users\Rafael\Documents\GitHub\GrandPrix\CustomFramework\bin\Debug\CustomFramework.dll
+C:\Users\Rafael\Documents\GitHub\GrandPrix\CustomFramework\bin\Debug\CustomFramework.pdb
+C:\Users\Rafael\Documents\GitHub\GrandPrix\CustomFramework\bin\Debug\en-US\CustomFramework.resources.dll
+C:\Users\Rafael\Documents\GitHub\GrandPrix\CustomFramework\obj\Debug\CustomFramework.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\GrandPrix\CustomFramework\obj\Debug\CustomFramework.Resources.LabelRes.resources
+C:\Users\Rafael\Documents\GitHub\GrandPrix\CustomFramework\obj\Debug\CustomFramework.Resources.Messages.resources
+C:\Users\Rafael\Documents\GitHub\GrandPrix\CustomFramework\obj\Debug\CustomFramework.Resources.LabelRes.en-US.resources
+C:\Users\Rafael\Documents\GitHub\GrandPrix\CustomFramework\obj\Debug\CustomFramework.Resources.Messages.en-US.resources
+C:\Users\Rafael\Documents\GitHub\GrandPrix\CustomFramework\obj\Debug\CustomFramework.csproj.GenerateResource.Cache
+C:\Users\Rafael\Documents\GitHub\GrandPrix\CustomFramework\obj\Debug\en-US\CustomFramework.resources.dll
+C:\Users\Rafael\Documents\GitHub\GrandPrix\CustomFramework\obj\Debug\CustomFramework.dll
+C:\Users\Rafael\Documents\GitHub\GrandPrix\CustomFramework\obj\Debug\CustomFramework.pdb
