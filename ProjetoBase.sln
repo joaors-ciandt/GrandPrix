@@ -1,9 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GP.Domain", "GP.Domain\GP.Domain.csproj", "{C7EFCE0C-1115-40C4-ADCE-39F3C95D757C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GP.SiteBasic", "GP.SiteBasic\GP.SiteBasic.csproj", "{692921A2-E645-4B34-9574-B48978A3FF58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GP.WcfService", "GP.WcfService\GP.WcfService.csproj", "{0B016945-D339-4C14-87C3-B067218BB4AB}"
 EndProject
@@ -23,10 +21,6 @@ Global
 		{C7EFCE0C-1115-40C4-ADCE-39F3C95D757C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7EFCE0C-1115-40C4-ADCE-39F3C95D757C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7EFCE0C-1115-40C4-ADCE-39F3C95D757C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{692921A2-E645-4B34-9574-B48978A3FF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{692921A2-E645-4B34-9574-B48978A3FF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{692921A2-E645-4B34-9574-B48978A3FF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{692921A2-E645-4B34-9574-B48978A3FF58}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0B016945-D339-4C14-87C3-B067218BB4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0B016945-D339-4C14-87C3-B067218BB4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B016945-D339-4C14-87C3-B067218BB4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
