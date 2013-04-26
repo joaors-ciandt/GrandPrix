@@ -23,5 +23,6 @@ namespace GP.WebSite
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles();// .RegisterBundles(BundleTable.Bundles);
         }
+
     }
 }
