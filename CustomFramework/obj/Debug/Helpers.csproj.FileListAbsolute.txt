@@ -1,4 +1,0 @@
-D:\Projetos\ProjetoBase\Helpers\bin\Debug\Helpers.dll
-D:\Projetos\ProjetoBase\Helpers\bin\Debug\Helpers.pdb
-D:\Projetos\ProjetoBase\Helpers\obj\Debug\Helpers.dll
-D:\Projetos\ProjetoBase\Helpers\obj\Debug\Helpers.pdb

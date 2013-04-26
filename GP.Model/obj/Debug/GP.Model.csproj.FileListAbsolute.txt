@@ -1,8 +1,0 @@
-C:\Users\Rafael\Documents\GitHub\GrandPrix\GP.Model\bin\Debug\GP.Model.dll
-C:\Users\Rafael\Documents\GitHub\GrandPrix\GP.Model\bin\Debug\GP.Model.pdb
-C:\Users\Rafael\Documents\GitHub\GrandPrix\GP.Model\bin\Debug\CustomFramework.dll
-C:\Users\Rafael\Documents\GitHub\GrandPrix\GP.Model\bin\Debug\CustomFramework.pdb
-C:\Users\Rafael\Documents\GitHub\GrandPrix\GP.Model\bin\Debug\en-US\CustomFramework.resources.dll
-C:\Users\Rafael\Documents\GitHub\GrandPrix\GP.Model\obj\Debug\GP.Model.csprojResolveAssemblyReference.cache
-C:\Users\Rafael\Documents\GitHub\GrandPrix\GP.Model\obj\Debug\GP.Model.dll
-C:\Users\Rafael\Documents\GitHub\GrandPrix\GP.Model\obj\Debug\GP.Model.pdb

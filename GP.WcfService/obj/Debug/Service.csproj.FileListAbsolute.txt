@@ -1,4 +1,0 @@
-D:\Projetos\ProjetoBase\GPService\bin\Service.dll
-D:\Projetos\ProjetoBase\GPService\bin\Service.pdb
-D:\Projetos\ProjetoBase\GPService\obj\Debug\Service.dll
-D:\Projetos\ProjetoBase\GPService\obj\Debug\Service.pdb
