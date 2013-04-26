@@ -1,0 +1,11 @@
+D:\Projetos\ProjetoBase\JR.Framework\bin\Debug\JR.Framework.dll
+D:\Projetos\ProjetoBase\JR.Framework\bin\Debug\JR.Framework.pdb
+D:\Projetos\ProjetoBase\JR.Framework\bin\Debug\en-US\JR.Framework.resources.dll
+D:\Projetos\ProjetoBase\JR.Framework\obj\Debug\JR.Framework.Resources.LabelRes.resources
+D:\Projetos\ProjetoBase\JR.Framework\obj\Debug\JR.Framework.Resources.Messages.resources
+D:\Projetos\ProjetoBase\JR.Framework\obj\Debug\JR.Framework.Resources.LabelRes.en-US.resources
+D:\Projetos\ProjetoBase\JR.Framework\obj\Debug\JR.Framework.Resources.Messages.en-US.resources
+D:\Projetos\ProjetoBase\JR.Framework\obj\Debug\JR.Framework.csproj.GenerateResource.Cache
+D:\Projetos\ProjetoBase\JR.Framework\obj\Debug\en-US\JR.Framework.resources.dll
+D:\Projetos\ProjetoBase\JR.Framework\obj\Debug\JR.Framework.dll
+D:\Projetos\ProjetoBase\JR.Framework\obj\Debug\JR.Framework.pdb
