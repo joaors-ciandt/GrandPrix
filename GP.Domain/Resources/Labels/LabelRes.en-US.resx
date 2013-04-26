@@ -118,30 +118,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessLevel" xml:space="preserve">
-    <value />
+    <value>Nível de Acesso</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value />
+    <value>Descrição</value>
   </data>
   <data name="FirstName" xml:space="preserve">
-    <value />
+    <value>Nome</value>
   </data>
   <data name="Id" xml:space="preserve">
-    <value />
+    <value>Código</value>
   </data>
   <data name="LastName" xml:space="preserve">
-    <value />
+    <value>Sobrenome</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value />
+    <value>Nome</value>
   </data>
   <data name="Password" xml:space="preserve">
-    <value />
+    <value>Senha</value>
   </data>
   <data name="Picture" xml:space="preserve">
-    <value />
+    <value>Imagem</value>
   </data>
   <data name="UserName" xml:space="preserve">
-    <value />
+    <value>Usuário</value>
   </data>
 </root>

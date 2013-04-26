@@ -118,30 +118,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessLevelRequired" xml:space="preserve">
-    <value>Access Level is Required</value>
+    <value>O campo Nível de Acesso é obrigatório</value>
   </data>
   <data name="FeatureNameRequired" xml:space="preserve">
-    <value />
+    <value>O campo Nome é obrigatório</value>
   </data>
   <data name="HierarchyLevelRequired" xml:space="preserve">
-    <value />
+    <value>O campo Nível de Hierarquia é obrigatório</value>
   </data>
   <data name="NameRequired" xml:space="preserve">
-    <value />
+    <value>O campo Nome é obrigatório</value>
   </data>
   <data name="RoleNameRequired" xml:space="preserve">
-    <value />
+    <value>O campo nome é obrigatório</value>
   </data>
   <data name="UserFirstNameRequired" xml:space="preserve">
-    <value />
+    <value>O campo Nome é obrigatório</value>
   </data>
   <data name="UserLastNameRequired" xml:space="preserve">
-    <value />
+    <value>O campo Sobrenome é obrigatório</value>
   </data>
   <data name="UserNameRequired" xml:space="preserve">
-    <value />
+    <value>O campo Usuário é obrigatório</value>
   </data>
   <data name="UserPasswordRequired" xml:space="preserve">
-    <value />
+    <value>O campo Senha é obrigatório</value>
   </data>
 </root>
