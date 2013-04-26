@@ -1,0 +1,47 @@
+﻿@model CustomFramework.Security.Membership.Model.User
+@{
+    Layout = null;
+}
+@using CustomFramework.Web.Mvc
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    @Styles.Render("~/Content/bootstrap")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</head>
+<body>
+    <div class="row">
+        <div class="span4 offset4">
+            <div class="well">
+                <legend>Login</legend>
+                @using (Html.BeginForm("DoLogin", "Membership", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken();
+                    @Html.ValidationSummary(true, string.Empty, new { @class = "alert alert-error" })
+
+                        
+                    @Html.LabelFor(m => m.UserName) 
+                    @Html.CustomTextBoxFor(m => m.UserName, new { @class = "span3" }, true)
+                    @Html.ValidationMessageFor(m => m.UserName)
+                    @Html.LabelFor(m => m.Password)
+                    @Html.CustomPasswordFor(m => m.Password, new { @class = "span3", maxlength = "10" }, true)
+                    @Html.ValidationMessageFor(m => m.Password)
+                    <label class="checkbox">
+                        <input type="checkbox" name="remember" value="1">
+                        Lembrar meus dados
+                    </label>
+                    <button class="btn-info btn" type="submit">
+                        Login</button>      
+                }
+            </div>
+            <span class="badge badge-primary">0.0.4</span>
+        </div>
+    </div>
+</body>
+<script language="javascript">
+    $('.validation-summary-errors:first').html("<a class='close' data-dismiss='alert' href='#'>x</a>" + $('.validation-summary-errors:first').html());    
+</script>
+</html>
