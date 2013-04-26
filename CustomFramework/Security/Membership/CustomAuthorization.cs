@@ -24,9 +24,14 @@ namespace CustomFramework.Security.Membership
 
             if (base.AuthorizeCore(httpContext))
             {
-                CustomPrincipal user = (CustomPrincipal)httpContext.User;
-                return (user.Permissions.ContainsKey(_feature) &&
-                    user.Permissions[_feature] >= (int)_minimumPermissionLevel);          
+                if (httpContext.User != null && httpContext.User is CustomPrincipal)
+                {
+                    CustomPrincipal user = (CustomPrincipal)httpContext.User;
+                    return (user.Permissions.ContainsKey(_feature) &&
+                        user.Permissions[_feature] >= (int)_minimumPermissionLevel);
+                }
+                else
+                    return true;
                 
             }
             return false;
