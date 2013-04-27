@@ -21,7 +21,7 @@ namespace GP.WebSite
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles();// .RegisterBundles(BundleTable.Bundles);
+            BundleConfig.RegisterBundles();
         }
 
     }

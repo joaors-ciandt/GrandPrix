@@ -15,17 +15,13 @@ namespace CustomFramework.Security.Membership
         }
 
         public void Init(HttpApplication context)
-        {
-            
-            context.PostAuthenticateRequest += new EventHandler(context_PostAuthenticateRequest);
-            throw new Exception("Erro simulado 1");
-            
+        {            
+            context.PostAuthenticateRequest += new EventHandler(context_PostAuthenticateRequest); 
         }
 
 
         private void context_PostAuthenticateRequest(object sender, EventArgs e)
         {
-
             if (HttpContext.Current.User.Identity.IsAuthenticated)
             {
                 User user = (User)HttpContext.Current.Application["USER"];
@@ -51,7 +47,6 @@ namespace CustomFramework.Security.Membership
                     }
                 }
                 HttpContext.Current.User = new CustomPrincipal(new CustomIdentity("Forms", user.UserName), Roles, Permissions);
-                throw new Exception("Erro simulado 2");
             }
 
         }

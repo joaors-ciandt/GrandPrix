@@ -24,18 +24,11 @@ namespace CustomFramework.Security.Membership
 
             if (base.AuthorizeCore(httpContext))
             {
-                if (httpContext.User != null && httpContext.User is CustomPrincipal)
-                {
-                    CustomPrincipal user = (CustomPrincipal)httpContext.User;
-                    return (user.Permissions.ContainsKey(_feature) &&
-                        user.Permissions[_feature] >= (int)_minimumPermissionLevel);
-                }
-                else
-                    return true;
-                
+                CustomPrincipal user = (CustomPrincipal)httpContext.User;
+                return (user.Permissions.ContainsKey(_feature) &&
+                    user.Permissions[_feature] >= (int)_minimumPermissionLevel);
             }
             return false;
-                
         }
 
         protected override void HandleUnauthorizedRequest(AuthorizationContext filterContext)
@@ -45,17 +38,17 @@ namespace CustomFramework.Security.Membership
 
         public override bool Match(object obj)
         {
-            return base.Match(obj);            
+            return base.Match(obj);
         }
 
         public override void OnAuthorization(AuthorizationContext filterContext)
-        {           
-             base.OnAuthorization(filterContext);
+        {
+            base.OnAuthorization(filterContext);
         }
 
         protected override System.Web.HttpValidationStatus OnCacheAuthorization(System.Web.HttpContextBase httpContext)
         {
-            return base.OnCacheAuthorization(httpContext);           
+            return base.OnCacheAuthorization(httpContext);
         }
     }
 }
